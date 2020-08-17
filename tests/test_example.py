@@ -1,5 +1,7 @@
-from pypipackageexample.example import abs_sin, abs_pearson
 import numpy as np
+
+from pypi_package_example.example import abs_sin, abs_pearson
+
 
 def test_abs_sin():
     assert abs_sin(0) == 0.0
